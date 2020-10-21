@@ -3,7 +3,7 @@
 ```bash
 # Check Chrony Sources
 oc debug node/worker01.openshift.instructor.io
-ssh core@worker01.openshift.instructor.io
+ssh core@10.5X.5X.11
 
 chrony sources
 
