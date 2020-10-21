@@ -75,6 +75,8 @@ spec:
         mode: 0644
         path: /etc/chrony.conf
 ...
+oc create -f chrony-enable-worker.yaml
+oc create -f chrony-enable-master.yaml
 
 #verify new machineconfig
 oc get machineconfigs
